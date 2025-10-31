@@ -1,0 +1,178 @@
+/*CABEÇALHO DA PÁGINA*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black;
+}
+.logo img{
+height: 50px;
+width: auto;
+border: #000000;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+}
+nav ul li{
+    margin: 0 15px
+}
+nav ul li a{
+color: rgb(221, 85, 7);
+text-decoration: none;
+border: solid;
+background-color: #3b1100;
+padding: 5px;
+display: block;
+}
+/*CABEÇALHO DA PÁGINA*/
+
+/*BODY DA PÁGINA*/
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 5px;
+    background-image: url("Imagens/Background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    
+}
+.INI{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #ffffff00;
+    border: 1px solid #000000;
+}
+.img1{
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px;
+    flex-shrink: 0;
+    height: 500px;
+    width: auto;
+}
+.titulo{
+    text-align: center;
+    background: radial-gradient(circle at top left, #e45a0ac4, #3b1100);
+}
+.titulo2{
+    text-align: center;
+    background: radial-gradient(circle at top left, #e45a0ac4, #3b1100);
+}
+.titulo3{
+    text-align: center;
+    background: radial-gradient(circle at top left, #e45a0ac4, #3b1100);
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    padding: 10px;
+}
+.CAM, .text{
+    text-align: center;
+}
+/*BODY DA PÁGINA*/
+
+
+/*IMAGENS*/
+.img{
+    display: flex;
+    align-items: center;
+}
+.img, img{
+    max-width: 100%;
+    height: 300px;
+    margin-right: 15px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+}
+.img2{
+    display: flex;
+    align-items: center;
+}
+.img2,.Reg{
+    max-width: 100%;
+    height: 300px;
+    margin-right: 15px;
+    border: 1px solid #000000;
+    border-radius: 3px; 
+}
+.img3{
+    display: flex;
+    align-items: center;
+}
+.img3,.Nanachi{
+    max-width: 100%;
+    height: 300px;
+    margin-right: 15px;
+    border: 1px solid #000000;
+    border-radius: 3px; 
+}
+.img4{
+    display: flex;
+    align-items: center;
+}
+.img4, .Ozen{
+    max-width: 100%;
+    height: 300px;
+    margin-right: 15px;
+    border: 1px solid #000000;
+    border-radius: 3px; 
+}
+.img5{
+    display: flex;
+    align-items: center;
+}
+.img5, .Lyza{
+    max-width: 100%;
+    height: 390px;
+    margin-right: 15px;
+    border: 1px solid #000000;
+    border-radius: 3px; 
+}
+.img6{
+    display: flex;
+    align-items: center;
+}
+.img6, .Marulk{
+    max-width: 100%;
+    margin-right: 15px;
+    border: 1px solid #000000;
+    border-radius: 3px; 
+}
+.img7{
+    display: flex;
+    align-items: center;
+}
+.img7, .Bondrewd{
+    max-width: 100%;
+    height: 470px;
+    margin-right: 15px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+}
+.imgA, .foto{
+    max-width: 100%;
+    height: 400px;
+}
+/*IMAGENS*/
+
+/*RODAPÉ*/
+footer{
+    text-align: center;
+    border: #000000 solid;
+    border-radius: 8px;
+    background-color: #000000;
+}
+/*RODAPÉ*/
+
+
+
