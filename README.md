@@ -35,7 +35,7 @@ Por se tratar de uma página estática, você pode visualizar o projeto diretame
 1.  **Clone o repositório:**
     ```bash
     git clone https://github.com/Weslley-322/Made-in-Abyss
-    cd MadeInAbyss
+    cd Made-in-Abyss
     ```
 2.  **Abrir no Navegador:**
     Localize o arquivo **`MadeinAbyss.html`** e abra-o com o seu navegador de preferência (Chrome, Firefox, Edge, etc.).
